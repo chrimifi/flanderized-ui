@@ -1,10 +1,10 @@
 {
-  "name": "outlander-ui",
+  "name": "flanderized-ui",
   "theme": "ui",
-  "version": "0.2.4",
-  "description": "A dark flat theme from elsewhere",
+  "version": "0.1.0",
+  "description": "Outlander + Solarized",
   "license": "MIT",
-  "repository": "https://github.com/mthadley/outlander-ui",
+  "repository": "https://github.com/chrimifi/flanderized-ui",
   "engines": {
     "atom": ">0.40.0"
   }
