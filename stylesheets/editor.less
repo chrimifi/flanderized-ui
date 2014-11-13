@@ -11,15 +11,15 @@
 		padding-left: @component-padding/2;
 	}
 
+	&.mini {
+		padding-left: @component-padding/2;
+		padding-right: @component-padding/2;
+	}
+
 	.cursor { border-color: #fff; }
-	.selection .region { background-color: lighten(@input-background-color, 10%); }
-}
+	.selection .region { background-color: @selection-color; }
 
-.editor.editor-colors.mini.is-focused {
-	background-color: lighten(@input-background-color, 2%);
-	.selection .region { background-color: @background-color-highlight; }
-}
-
-.editor:not(.mini) {
-	border-left: 1px solid @pane-background-color;
+	.gutter {
+		background-color: @editor-background-color;
+	}
 }
