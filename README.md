@@ -33,6 +33,13 @@ begin reading the article, you become highly likely to fritter away the rest of
 your day clicking from article to article the same way one does when first
 discovering Wikipedia.*
 
+#### Contributing
+
+I am happy to accept constructive feedback, bug reports, and pull requests.
+Having said this, this is more of an educational exercise for me than anything
+else, so please don't take it personally if I don't respond or don't
+incorporate your changes.
+
 #### Miscellaneous Credits
 * Ethan Schoonover's [Solarized](http://ethanschoonover.com/solarized) color scheme
 * Michael Hadley's [Outlander](https://atom.io/themes/outlander-ui) UI theme for Atom

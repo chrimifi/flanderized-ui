@@ -4,29 +4,29 @@
 	box-sizing: border-box;
 }
 
-.workspace {
+atom-workspace {
 	background-color: @app-background-color;
 }
 
 .scrollbars-visible-always {
-	::-webkit-scrollbar {
-		width: 5px;
-		height: 5px;
+	/deep/ ::-webkit-scrollbar {
+		width: @scrollbar-size;
+		height: @scrollbar-size;
 	}
 
-	::-webkit-scrollbar-track,
-	::-webkit-scrollbar-corner {
+	/deep/ ::-webkit-scrollbar-track,
+	/deep/ ::-webkit-scrollbar-corner {
 		background: @scrollbar-background-color;
 	}
 
-	.vertical {
-		& ::-webkit-scrollbar-track,
-		& ::-webkit-scrollbar-corner {
+	atom-workspace-axis.vertical {
+		& /deep/ ::-webkit-scrollbar-track,
+		& /deep/ ::-webkit-scrollbar-corner {
 			background: @editor-scrollbar-background-color;
 		}
 	}
 
-	::-webkit-scrollbar-thumb {
+	/deep/ ::-webkit-scrollbar-thumb {
 		background: @scrollbar-color;
 	}
 }
